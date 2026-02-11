@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+    Contact Application
+</header>
+
+<main>
+    <div class="success-box">
+        <h2>Message Sent Successfully!</h2>
+
+        <p>Thank you <b>{{ name }}</b>, your message has been received.</p>
+
+        <a href="/">Send Another Message</a>
+    </div>
+</main>
+
+<footer>
+    © 2026 Flask Learning Project
+</footer>
+
+</body>
+</html>
